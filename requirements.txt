@@ -1,0 +1,4 @@
+instagrapi==1.17.13
+matplotlib==3.5.1
+numpy==1.20.0
+pandas==1.4.0
