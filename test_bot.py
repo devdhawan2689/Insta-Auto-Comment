@@ -41,7 +41,7 @@ while True:
                 print("New Post Found, Commenting..... \n")
                 # Using try and except beacuse certain posts have comment limit
                 try:
-                    comment = cl.media_comment(post_id, "🔥👗 Upgrade your wardrobe with the latest fashion trends! Follow us @marvelousmerch.shop for the hottest apparel styles. 💃🕺 Don't miss out on exclusive discounts and fabulous fashion inspiration. Tap that follow button now! 🚀💕 #FashionGoals #InstaStyle #TrendyFashion #FashionInspiration #Fashionista #OOTD #FashionLovers #StyleGoals #FashionAddict #FashionForward")
+                    comment = cl.media_comment(post_id, "Your comment goes here")
                 except Exception as error:
                     print(error)
 
