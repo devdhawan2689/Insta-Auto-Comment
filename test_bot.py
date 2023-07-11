@@ -54,7 +54,8 @@ while True:
                 commented_posts.to_csv("Commented_List.csv", index=False, encoding='utf-8')
             else:
                 print("Post Already Found \n")
-            
+
+    # Increase the time inorder to not get temporary ban
     print("Checking For New Posts in 5 Seconds....")
     time.sleep(5)
 
